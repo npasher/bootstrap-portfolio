@@ -1,29 +1,35 @@
 *{
-font-family:cursive, Arial, Helvetica, sans-serif;
+font-family:Helvetica,sans-serif;
+color:white;
 }
 body{
     height:100%;
     display:flex;
     flex-direction:row;
+    background-image:url("../images/RAL.jpg");
 }
-.row{
-    background-color:silver;
+p{
+    font-weight:bold;
+}
+input{
+    background-color:transparent;
 }
 #connect{
-    width:calc(100% - 30px);
+    width:calc(100%);
     text-align:center;
-    height:80px; 
 }
 .icon{
     width:50px;
     height:50px;
- }
+}
 footer{
+    position: absolute;
+    bottom:0;
     flex-shrink:0;
-    color:white;
     }
 h6:hover{
     color:olivedrab;
+    text-align:center;
 }
 .des{
     background:lightblue;
