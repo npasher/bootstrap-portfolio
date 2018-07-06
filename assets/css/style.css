@@ -8,6 +8,7 @@ body{
     flex-direction:row;
     background-image:url("../images/RAL.jpg");
 }
+
 p{
     font-weight:bold;
 }
@@ -24,8 +25,8 @@ input{
 }
 footer{
     position: absolute;
-    bottom:0;
-    flex-shrink:0;
+    /* bottom:0; */
+    /* flex-shrink:0; */
     }
 h6:hover{
     color:olivedrab;
